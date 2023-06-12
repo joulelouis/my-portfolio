@@ -7,6 +7,7 @@ menuIcon.onclick = () => {
 	navbar.classList.toggle('active');
 };
 
+
 /*----------------------------scroll section active------------------------------------*/
 
 let sections = document.querySelectorAll('section');
