@@ -173,7 +173,7 @@ span {
 	box-shadow: none;
 }
 
-.about {
+.about .about-content{
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -208,6 +208,24 @@ span {
 	font-size: 4.5rem;
 }
 
+.about .about-content {
+	margin-top: 4rem;
+	display: flex;
+	justify-content: center;
+/*	align-items: center;*/
+	flex-wrap: wrap;
+	gap: 6rem;
+}
+
+.about-content .about-skills .skills-box {
+	flex: 1 1 30rem;
+	background: var(--second-bg-color);
+	padding: 2rem 4rem ;
+	margin: 2rem 0 ;
+	border-radius: 2rem;
+	border: 0.2rem solid var(--bg-color);
+}
+
 .about-content h2 {
 	text-align: left;
 	line-height: 1.2;
@@ -220,6 +238,25 @@ span {
 .about-content p {
 	font-size: 1.6rem;
 	margin: 2rem 0 3rem;
+}
+
+.skills-box i {
+	font-size: 7rem;
+	color: var(--main-color);
+}
+
+.skills-box h3 {
+	font-size: 2.6rem;
+}
+
+.skills-box p {
+	font-size: 1.6rem;
+	margin: 1rem 0 3rem;
+}
+
+.skills-box ul li {
+	font-size: 1.4rem;
+	
 }
 
 .services h2 {
@@ -372,11 +409,9 @@ span {
 	flex: 1 1 30rem;
 	background: var(--second-bg-color);
 	padding: 0 2rem 0;
-
 	border-radius: 2rem;
 	text-align: center;
 	border: 0.2rem solid var(--bg-color);
-	
 }
 
 
@@ -392,6 +427,11 @@ span {
 .contact-box p {
 	font-size: 1.6rem;
 	margin: 1rem 0 3rem;
+}
+
+.contact-container .contact-box .btn {
+	position: relative;
+	top: -10px;
 }
 
 .contact h2 {
