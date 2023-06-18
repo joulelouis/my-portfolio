@@ -16,7 +16,8 @@
 	--bg-color:	#2A2F4F;
 	--second-bg-color: #917FB3;
 	--text-color: #fff;
-	--main-color: #FFC733;
+	--main-color: #ffAf6C;
+	--second-color: #C9EEFF;
 
 
 }
@@ -209,18 +210,19 @@ span {
 }
 
 .about .about-content {
-	margin-top: 4rem;
+	margin-top: 1rem;
 	display: flex;
 	justify-content: center;
 /*	align-items: center;*/
 	flex-wrap: wrap;
 	gap: 6rem;
+
 }
 
 .about-content .about-skills .skills-box {
 	flex: 1 1 30rem;
 	background: var(--second-bg-color);
-	padding: 2rem 4rem ;
+	padding: 1rem 4rem ;
 	margin: 2rem 0 ;
 	border-radius: 2rem;
 	border: 0.2rem solid var(--bg-color);
@@ -241,8 +243,11 @@ span {
 }
 
 .skills-box i {
-	font-size: 7rem;
+	font-size: 6rem;
 	color: var(--main-color);
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .skills-box h3 {

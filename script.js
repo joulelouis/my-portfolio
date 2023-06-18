@@ -57,13 +57,13 @@ ScrollReveal({
 
 ScrollReveal().reveal('.home-content, .heading', { origin: 'top' });
 ScrollReveal().reveal('.home-img, .services-container, .portfolio-box, .contact-container, .contact form', { origin: 'bottom' });
-ScrollReveal().reveal('.about-img', { origin: 'left' });
-ScrollReveal().reveal('.about-content', { origin: 'right' });
+ScrollReveal().reveal('.about-image-and-bio', { origin: 'left' });
+ScrollReveal().reveal('.about-skills', {origin: 'right' });
 
 
 /*----------------------------typed js------------------------------------*/
 const typed = new Typed('.multiple-text', {
-	strings: ['Full Stack Developer', 'Data Engineer', 'Mechanical Engineer'],
+	strings: ['Full Stack Developer', 'Database Engineer', 'Mechanical Engineer'],
 	typeSpeed: 100,
 	backSpeed: 100,
 	backDelay: 1000,
