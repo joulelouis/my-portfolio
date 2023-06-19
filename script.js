@@ -62,10 +62,12 @@ ScrollReveal().reveal('.about-skills', {origin: 'right' });
 
 
 /*----------------------------typed js------------------------------------*/
-const typed = new Typed('.multiple-text', {
-	strings: ['Full Stack Developer', 'Database Engineer', 'Mechanical Engineer'],
+/*
+const typed = new Typed('.loading', {
+	strings: ['...'],
 	typeSpeed: 100,
 	backSpeed: 100,
 	backDelay: 1000,
 	loop: true
 });
+*/
